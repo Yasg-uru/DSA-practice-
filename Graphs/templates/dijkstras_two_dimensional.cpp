@@ -2,7 +2,7 @@
 #include <vector>
 #include <queue>
 #include <climits>
-
+#include<algorithm>
 using namespace std;
 
 // Alias for priority queue elements: {cost/distance, {row, col}}
