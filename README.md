@@ -14,7 +14,7 @@ Welcome to the **DSA Practice Repository**, a collection of well-structured, opt
 ## 🚀 How to Use This Repository?
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/DSA-Practice.git
+   git clone https://github.com/Yasg-uru/DSA-practice-.git
    cd DSA-Practice
    ```
 2. **Explore the templates** and select a relevant one based on the problem you are solving.
