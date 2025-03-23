@@ -1,8 +1,5 @@
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <climits>
-#include<algorithm>
+
+#include<bits/stdc++.h>
 using namespace std;
 
 // Alias for priority queue elements: {cost/distance, {row, col}}
