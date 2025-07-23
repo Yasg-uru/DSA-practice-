@@ -1,0 +1,17 @@
+class Solution {
+public:
+    vector<int> findWordsContaining(vector<string>& words, char x) {
+        //we are using the nested loops for solving this question
+        vector<int>ans;
+        for(int i=0;i<words.size();i++){
+            for(char ele:words[i]){
+                if(ele==x){
+                    ans.push_back(i);
+                    break;
+                }
+            }
+
+        }
+        return ans;
+    }
+};

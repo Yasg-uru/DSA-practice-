@@ -1,0 +1,20 @@
+class Solution {
+public:
+    bool checkPowersOfThree(int n) {
+        // first we need to find the maximum power 
+        int p = 0 ;
+        while(pow(3, p)<n) p++;
+        
+        while(n>0){
+            if(n>=pow(3,p)){
+                n-=pow(3,p);
+            }
+             if(n>=pow(3,p)){
+                return false;
+            }
+            p--;
+
+        }
+        return true ;
+    }
+};
